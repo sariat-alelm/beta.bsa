@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+<msapplication>
+<tile>
+<square72x72logo src="bohoth-sariat-alelm-72x72.png"/>
+<square192x192logo src="bohoth-sariat-alelm-icon-192x192.png"/>
+<square512x512logo src="bohoth-sariat-alelm-icon-512x512.png"/>
+<TileColor>#FFFFFF</TileColor>
+</tile>
+</msapplication>
+</browserconfig>

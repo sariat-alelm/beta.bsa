@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" href=""> 
+<title></title> 
+<style>
+@font-face{
+font-family:"utnb";
+src:url("uthman-tn-bold.woff2") format("woff2");
+}
+@font-face{
+font-family:"kitab";
+src:url("kitab.woff2") format("woff2");
+}
+@font-face{
+font-family:"amin";
+src:url("amin.woff2") format("woff2");
+}
+*{
+margin:0;
+padding:0;
+}
+
+.pages{
+width:100%;
+border:;
+height:auto;
+}
+
+.mpage{
+background-image:url("main.svg");
+background-repeat:no-repeat;
+background-size:100%;
+}
+
+.spages{
+background-image:url("smain.svg");
+background-repeat:no-repeat;
+background-size:100%;
+}
+
+.templates{
+width:100%;
+z-index:-1;
+display:block;
+visibility:hidden;
+}
+
+.title{
+font-family:utnb;
+text-align:center;
+font-size:35px;
+padding:69px 69px 50px 69px;
+color:#2C323D;
+}
+
+.headings{
+font-family:amin;
+font-size:15px;
+color:#2B3C56;
+padding:0 0px 10px 0;
+}
+
+pre{
+color:#3C4F75;
+font-family:kitab;
+font-size:14px;
+border:1px red solid;
+margin:auto 10px;
+}
+
+.verse{
+color:#060;
+}
+
+hadith{
+font-family:kitab-bold;
+}
+
+.ending{
+text-align:center;
+font-size:14px;
+}
+
+.copyrights{
+margin:0 auto;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<div class="pages mpage">
+<p class="title">
+(عنوان البحث)
+</p>
+<pre>
+<!-- محتوى الصفحة الأولى -->
+</pre>
+</div>
+
+<div class="pages spages">
+<pre>
+<!-- محتوى الصفحة الثانية -->
+</pre>
+</div>
+
+<div class="pages spages">
+<pre>
+</pre>
+</div>
+
+<div class="pages spages">
+<pre>
+</pre>
+</div>
+
+<div class="pages spages">
+<pre>
+<!-- محتوى الصفحة الثالثة -->
+</pre>
+</div>
+
+<!-- إذا أردت زيادة صفحات فزد من هنا -->
+
+<div class="pages spages">
+<pre>
+<!-- محتوى الصفحة الأخيرة -->
+<p class="ending">
+
+اللهم صلِّ وسلم على نبينا محمد وعلى آله وصحبه أجمعين
+
+تم وبحمد الله
+</p>
+</pre>
+</div>
+<!-- صفحة المراجع: -->
+<div class="pages spages">
+<pre>
+
+
+<p class="headings">
+     المراجع:
+</p>
+</pre>
+</div>
+
+<img src="main.svg" alt="" class="templates">
+<script src="scripts.js">
+</script>
+</body>
+</html>
